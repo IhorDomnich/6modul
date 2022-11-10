@@ -42,11 +42,11 @@
 }
 
 .tasks__content--remove:hover {
-    background: hsl(0, 100%, 60%);
+    background: hsl(0, 100%, 70%);
 }
 
 .tasks__content--remove:active {
-    background: hsl(0, 100%, 70%);
+    background: hsl(0, 100%, 90%);
 }
 
 
