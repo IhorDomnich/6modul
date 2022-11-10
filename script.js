@@ -53,11 +53,11 @@
             });
         });
 
-        const toggleDaneButtons = document.querySelectorAll(".js-done");
+        const toggleDoneButtons = document.querySelectorAll(".js-done");
 
-        toggleDaneButtons.forEach((toggleDaneButton, index) => {
-            toggleDaneButton.addEventListener("click", () => {
-                toggleDane(index);
+        toggleDoneButtons.forEach((toggleDoneButton, index) => {
+            toggleDoneButton.addEventListener("click", () => {
+                toggleTaskDone(index);
             });
         });
     };
