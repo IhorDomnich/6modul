@@ -13,15 +13,15 @@
     border-bottom: 1px solid #ddd;
 }
 
-.tasks__button--toogleDone {
+.tasks__button--toggleDone {
     background: hsl(84, 100%, 59%);
 }
 
-.tasks__button--toogleDone:hover {
+.tasks__button--toggleDone:hover {
     background:  hsl(84, 100%, 65%);
 }
 
-.tasks__button--toogleDone:active {
+.tasks__button--toggleDone:active {
     background:  hsl(84, 100%, 73%);
 }
 
