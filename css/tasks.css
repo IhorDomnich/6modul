@@ -14,15 +14,15 @@
 }
 
 .tasks__button--toggleDone {
-    background: hsl(84, 100%, 59%);
+    background:hsl(230, 76%, 21%);
 }
 
 .tasks__button--toggleDone:hover {
-    background:  hsl(84, 100%, 65%);
+    background: hsl(230, 76%, 30%);
 }
 
 .tasks__button--toggleDone:active {
-    background:  hsl(84, 100%, 73%);
+    background: hsl(230, 76%, 38%);
 }
 
 .tasks__button {
