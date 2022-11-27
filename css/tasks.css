@@ -14,15 +14,15 @@
 }
 
 .tasks__button--toggleDone {
-    background:hsl(230, 76%, 21%);
+    background: hsl(180, 100%, 25%);
 }
 
 .tasks__button--toggleDone:hover {
-    background: hsl(230, 76%, 30%);
+    background: hsl(180, 100%, 35%);
 }
 
 .tasks__button--toggleDone:active {
-    background: hsl(230, 76%, 38%);
+    background:hsl(180, 100%, 43%);
 }
 
 .tasks__button {
@@ -31,6 +31,7 @@
     width: 30px;
     height: 30px;
     padding: 0;
+    transition: background 0.3s;
 }
 
 .tasks__content--done {
@@ -49,4 +50,6 @@
     background: hsl(0, 100%, 75%);
 }
 
-
+.tasks__item--hidden {
+    display: none;
+}
